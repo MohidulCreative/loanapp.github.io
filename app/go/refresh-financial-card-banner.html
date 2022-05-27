@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="https://loanscanada.ca/app/assets/css/images/favicon.png" />
+        <title>Loans Canada | Redirecting to Refresh Financial</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" integrity="sha384-PmY9l28YgO4JwMKbTvgaS7XNZJ30MK9FAZjjzXtlqyZCqBY6X6bXIkM++IkyinN+" crossorigin="anonymous">
+
+        <style>
+            #loader {
+                margin: 15px auto 10px auto;
+                border: 8px solid #f3f3f3;
+                border-radius: 50%;
+                border-top: 8px solid #3498db;
+                width: 40px;
+                height: 40px;
+                -webkit-animation: spin 2s linear infinite;
+                animation: spin 2s linear infinite;
+            }
+
+            @-webkit-keyframes spin {
+                0% { -webkit-transform: rotate(0deg); }
+                100% { -webkit-transform: rotate(360deg); }
+            }
+
+            @keyframes    spin {
+                0% { transform: rotate(0deg); }
+                100% { transform: rotate(360deg); }
+            }
+
+            .separator {
+                border-right: 2px solid #cecece6e;
+                border-bottom: none;
+            }
+            @media(max-width:991px) {
+                .separator {
+                    border-right: none;
+                    border-bottom: 2px solid #cecece6e;
+                }
+            }
+
+            .logo-center {
+                margin: 20px 10px;
+                height: 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .logo-center img {
+                max-height: 100%;
+                max-width: 100%;
+            }
+
+            .logos-container {
+                padding:40px;
+            }
+
+            @media(max-width:991px) {
+                .logo-center {margin: 40px 10px;}
+                .logos-container {padding:10px 20px;}
+            }
+
+            .container{ margin-top:20px;}
+            .redirection #loader{ margin-top: 40px;}
+            .redirection .message{}
+        </style>
+
+    </head>
+
+    <body class="home">
+
+        <div class="wrapper">
+
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-offset-2 col-md-8 text-center">
+                        <div class="redirection">
+                            <h3 class="message">Sit tight! You're being redirected to the Refresh Financial website</h3>
+                            <div id="loader"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-offset-2 col-md-8">
+                        <div class="row logos-container" >
+                            <div class="col-md-6 separator">
+                                                            </div>
+                            <div class="col-md-offset-3 col-md-6">
+                                                                    <div class="logo-center">
+                                        <img  src="https://cmi.rocks/storage/partners/i9flZX1BCTslVEpk31o834ygRJhZusrQ2uQe6Gpp.png" alt="Refresh Financial logo">
+                                    </div>
+                                                            </div>
+                            <div class="col-md-12 text-center" style="margin-top:50px;">
+                                <h4 style="color: #666666;">Powered by...</h4>
+                                <img style="height:120px; width:auto;" src="https://loanscanada.ca/app/assets/img/lc-logo-round.png" alt="loans canada logo">
+                                <p style="color: #666666; font-size: 15px; ">Canada's Largest Loan Comparison Network</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            setTimeout(function(){
+                
+                window.location.href = decodeURIComponent('https://loanscanada.ca/click?link_id=62053f729998d').replace(/&amp;/g, '&');
+            }, 1500);
+        </script>
+
+    </body>
+</html>
