@@ -75,7 +75,9 @@
 	         Modal ------------------------------------
 	         Popover ----------------------------------
  */
-
+*{
+    border: 1px solid red;
+}
 .arrow-next {
     background-image: url(images/sprite.png);
     background-position: 92.26932668329178% 53.421052631578945%;

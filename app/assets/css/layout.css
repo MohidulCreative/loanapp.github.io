@@ -1,0 +1,88 @@
+.text-center {
+  margin-top: 80px;
+}
+
+.record {
+  padding: 0px 30px;
+  border-bottom: 3px solid red;
+  display: inline;
+  font-size: 29px;
+}
+
+.trustedby {
+  margin-top: 30px;
+}
+
+.section-steps 
+.section__head{
+  margin-bottom: 30px;
+  margin-left: 28rem;
+}
+
+.block-posts {
+  background: #e4f8ea;
+  padding: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.cutout {
+  margin-top: 20px;
+}
+.faq_sec {
+  color: rgba(0, 0, 0, 0.726);
+}
+
+.section__subsection-title {
+  border-bottom: 2px solid rgb(0, 140, 145);
+  color: rgb(0, 140, 145) !important;
+}
+
+.faq-text {
+  background-color: wheat;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.block-secure {
+  position: relative;
+  border: 1px solid #01bb3e;
+  border-radius: 20px;
+  padding: 18px 38px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.latest-post-blog {
+  margin-left: 40px;
+}
+
+.person-detail {
+  max-width: 70%;
+  margin-bottom: 40px;
+}
+#core-team {
+  text-align: center;
+  margin-top: 40px;
+  border-bottom: 2px solid #01bb3e;
+  font-size: 30px;
+}
+.Core-team-cont {
+  margin-left: 5rem;
+}
+
+.our-story-text {
+  display: inline-block;
+  width: 500px;
+}
+
+.bp-img {
+  display: inline-block;
+  margin-left: 90px;
+}
+
+/* Css for app form pages */
+
+.section__title_T {
+  text-align: center;
+}
