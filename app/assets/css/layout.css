@@ -86,3 +86,17 @@
 .section__title_T {
   text-align: center;
 }
+.mt {
+  margin-top: 20px;
+}
+
+h2.text-center1 {
+  text-align: left;
+  margin-left: 206px;
+}
+
+.nav-secondary {
+  position: absolute;
+  top: 0;
+  right: 101rem !important;
+}
